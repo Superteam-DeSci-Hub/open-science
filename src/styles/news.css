@@ -1,0 +1,10 @@
+.news-container {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+  }
+  
+  .news-item {
+    margin-bottom: 30px;
+  }

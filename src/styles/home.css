@@ -1,17 +1,8 @@
 .home {
-    display: flex;
+    font-family: 'Montserrat', sans-serif;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
-  .news-section {
-    max-width: 800px;
-    width: 100%;
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .events-section {
@@ -21,11 +12,20 @@
   }
 
   .home-container {
-    margin-top: 25%;  
-    /* padding-top: 100px; */ 
-    background-color: #2ed489;
     display: flex;
+    font-family: 'Montserrat', sans-serif; 
+    width: 75%; /* Takes 90% of the screen width */
+    max-width: 1200px; /* Maximum width for large screens */
+    margin: 0 auto; /* Centers the container */
+    padding: 5px; /* Adds some spacing inside */
+    border-radius: 15px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 18%;  
+    background-color: #2ea5d4;
+    flex-direction: column;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
     text-align: center; /* Centers text inside */
+    gap: 10px;
+    padding-top: 20px; /* Adds space from the top */
 }

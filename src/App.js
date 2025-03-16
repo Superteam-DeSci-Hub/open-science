@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+        <Route path="/open-science" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/calendar" element={<Calendar />} />
