@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cd8035a.css",
-    "main.js": "/static/js/main.cfc438cc.js",
-    "static/media/logo.jpg": "/static/media/logo.e3c32855dc04225524c8.jpg",
-    "index.html": "/index.html",
-    "main.1cd8035a.css.map": "/static/css/main.1cd8035a.css.map",
-    "main.cfc438cc.js.map": "/static/js/main.cfc438cc.js.map"
+    "main.css": "/open-science/static/css/main.f2808176.css",
+    "main.js": "/open-science/static/js/main.3f9641da.js",
+    "static/media/logo.jpg": "/open-science/static/media/logo.e3c32855dc04225524c8.jpg",
+    "index.html": "/open-science/index.html",
+    "main.f2808176.css.map": "/open-science/static/css/main.f2808176.css.map",
+    "main.3f9641da.js.map": "/open-science/static/js/main.3f9641da.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cd8035a.css",
-    "static/js/main.cfc438cc.js"
+    "static/css/main.f2808176.css",
+    "static/js/main.3f9641da.js"
   ]
 }
