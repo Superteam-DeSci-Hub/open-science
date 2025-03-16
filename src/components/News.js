@@ -11,6 +11,18 @@ const News = () => {
           <h2>{item.title}</h2>
           <h3>{item.date}</h3>
           <p>{item.content}</p>
+          {item.image && (
+            <img
+              src={item.image}
+              alt={item.title}
+              className="news-image"
+            />
+          )}
+          {item.link && (
+            <p><a href={item.link} target="_blank" rel="noopener noreferrer" className="news-link">
+              Read More →
+            </a></p>
+          )}
         </div>
       ))}
     </div>

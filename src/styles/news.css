@@ -1,10 +1,16 @@
 .news-container {
-    margin: 40px 0;
-    padding: 20px;
+    padding: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-color: #f9f9f9;
     border-radius: 15px;
   }
   
-  .news-item {
-    margin-bottom: 30px;
-  }
+.news-item {
+  margin-bottom: 10%;
+ }
+
+.news-image {
+  max-height: 150px;
+  width: auto; /* Keeps the aspect ratio */
+}
