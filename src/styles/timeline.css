@@ -14,7 +14,7 @@
   
   .timeline-month {
     font-weight: bold;
-    background-color: #495f80;
+    background-color: #11356f;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
@@ -31,26 +31,26 @@
   
   .timeline-status {
     width: 100%;
-    color: #f9f9f9;
+    color: #11356f;
     text-align: right;
     margin-right: 25px;
     font-weight: bold;
   }
   
   .timeline-details {
-    background: linear-gradient(to right, #e6f0fa, #ffffff);
     padding: 10%;
     border-radius: 8px;
+    background-color: #11356f;
   }
   
   .timeline-title {
     font-weight: bold;
-    color: #000000;
+    color: #f9f9f9;
     text-align: center;
   }
   
   .timeline-date {
     font-size: 12px;
-    color: #000000;
+    color: #f9f9f9;
     text-align: center;
   }

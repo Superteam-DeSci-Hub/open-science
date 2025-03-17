@@ -3,7 +3,7 @@ import "../styles/home.css";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="home-container">
       <h1>About the DeSci Hub</h1>
       <p>
         The <strong>Superteam DeSci Challenge 2025</strong> is designed to

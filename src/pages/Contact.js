@@ -26,6 +26,7 @@ const Contact = () => {
         <p className="success-message">✅ Thank you! Your response has been recorded.</p>
       ) : (
         <form onSubmit={handleSubmit}>
+          <h1>Contact us:</h1>
           <input type="text" name="entry.2074818001" placeholder="Full Name:" required />
           <input type="email" name="entry.1021605082" placeholder="Email Address:" required />
           <input type="text" name="entry.873823422" placeholder="Institution/Organization:" required />
@@ -44,7 +45,7 @@ const Contact = () => {
           </select>
 
           <textarea name="entry.793683687" placeholder="Message:" required></textarea>
-          <button type="submit">Submit</button>
+          <button type="submit"><strong>Submit</strong></button>
         </form>
       )}
     </div>

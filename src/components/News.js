@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/news.css';
 import newsData from '../data/newsData';
 
 const News = () => {

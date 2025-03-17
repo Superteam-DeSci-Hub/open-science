@@ -7,8 +7,8 @@
     margin-top: 18%; /* Adjust based on your navbar height */
     padding: 20px;
   }
-  
-  form {
+
+form {
     display: flex;
     flex-direction: column;
 }
@@ -39,4 +39,16 @@ button {
 
 button:hover {
     background-color: #ccc;
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+  .contact-container {
+      max-width: 100%; /* Use full width on mobile */
+      padding: 10px;
+  }
+
+  input, select, textarea {
+      width: 100%; /* Ensures form fields adjust to screen width */
+  }
 }
