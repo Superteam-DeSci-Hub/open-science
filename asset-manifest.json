@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/open-science/static/css/main.d2f3acb6.css",
-    "main.js": "/open-science/static/js/main.35affa9b.js",
-    "static/media/descihub.png": "/open-science/static/media/descihub.5888a3caf902570400e1.png",
+    "main.css": "/open-science/static/css/main.832d12ab.css",
+    "main.js": "/open-science/static/js/main.061602ae.js",
+    "static/media/news2.jpg": "/open-science/static/media/news2.7e614f07951e4d2acffb.jpg",
     "static/media/stgrant.png": "/open-science/static/media/stgrant.baea0e756768d386e1f1.png",
     "static/media/logo.jpg": "/open-science/static/media/logo.e3c32855dc04225524c8.jpg",
     "index.html": "/open-science/index.html",
-    "main.d2f3acb6.css.map": "/open-science/static/css/main.d2f3acb6.css.map",
-    "main.35affa9b.js.map": "/open-science/static/js/main.35affa9b.js.map"
+    "main.832d12ab.css.map": "/open-science/static/css/main.832d12ab.css.map",
+    "main.061602ae.js.map": "/open-science/static/js/main.061602ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f3acb6.css",
-    "static/js/main.35affa9b.js"
+    "static/css/main.832d12ab.css",
+    "static/js/main.061602ae.js"
   ]
 }
