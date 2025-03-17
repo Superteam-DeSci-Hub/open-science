@@ -4,6 +4,7 @@
     align-items: flex-start;
     padding: 40px;
     position: relative;
+    font-size: 18px;
   }
   
   .timeline-period {
@@ -12,7 +13,8 @@
   }
   
   .timeline-month {
-    background-color: #11356f;
+    font-weight: bold;
+    background-color: #495f80;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
@@ -29,7 +31,7 @@
   
   .timeline-status {
     width: 100%;
-    color: #11356f;
+    color: #f9f9f9;
     text-align: right;
     margin-right: 25px;
     font-weight: bold;
@@ -43,11 +45,12 @@
   
   .timeline-title {
     font-weight: bold;
+    color: #000000;
     text-align: center;
   }
   
   .timeline-date {
     font-size: 12px;
-    color: #666;
+    color: #000000;
     text-align: center;
   }
