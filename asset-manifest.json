@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/open-science/static/css/main.85b6e299.css",
-    "main.js": "/open-science/static/js/main.5b8eaf17.js",
+    "main.css": "/open-science/static/css/main.d2f3acb6.css",
+    "main.js": "/open-science/static/js/main.35affa9b.js",
     "static/media/descihub.png": "/open-science/static/media/descihub.5888a3caf902570400e1.png",
     "static/media/stgrant.png": "/open-science/static/media/stgrant.baea0e756768d386e1f1.png",
     "static/media/logo.jpg": "/open-science/static/media/logo.e3c32855dc04225524c8.jpg",
     "index.html": "/open-science/index.html",
-    "main.85b6e299.css.map": "/open-science/static/css/main.85b6e299.css.map",
-    "main.5b8eaf17.js.map": "/open-science/static/js/main.5b8eaf17.js.map"
+    "main.d2f3acb6.css.map": "/open-science/static/css/main.d2f3acb6.css.map",
+    "main.35affa9b.js.map": "/open-science/static/js/main.35affa9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.85b6e299.css",
-    "static/js/main.5b8eaf17.js"
+    "static/css/main.d2f3acb6.css",
+    "static/js/main.35affa9b.js"
   ]
 }
