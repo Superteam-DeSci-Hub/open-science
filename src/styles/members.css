@@ -1,0 +1,41 @@
+.members-container {
+    margin-top: 18%;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .members-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .member-card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .member-card a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .member-card a:hover {
+    text-decoration: underline;
+  }
+
+  .member-image {
+    width: 80px; /* Veličina slike */
+    height: 80px;
+    border-radius: 50%; /* Kružni oblik */
+    object-fit: cover; /* Da slika lepo popuni krug */
+    margin-bottom: 10px;
+  }
