@@ -14,7 +14,7 @@
   
   .timeline-month {
     font-weight: bold;
-    background-color: #11356f;
+    background-color: #7d58cc;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
@@ -31,7 +31,7 @@
   
   .timeline-status {
     width: 100%;
-    color: #11356f;
+    color: #7d58cc;
     text-align: right;
     margin-right: 25px;
     font-weight: bold;
@@ -40,7 +40,7 @@
   .timeline-details {
     padding: 10%;
     border-radius: 8px;
-    background-color: #11356f;
+    background-color: #36255c;
   }
   
   .timeline-title {
