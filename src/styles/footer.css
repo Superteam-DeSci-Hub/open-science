@@ -4,11 +4,13 @@
     color: white;
     text-align: center;
     padding: 15px 20px;
-    position: relative;
     width: 100%;
-    bottom: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
+    margin-bottom: 50px auto;
     flex: 1;
+    position: relative;
+    left: 0;
+    bottom: 0;
 }
 
 .footer a {

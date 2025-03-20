@@ -8,7 +8,7 @@ const Calendar = () => {
       <p> 📢 <strong>March:</strong> Official launch and open call for participation.</p>
       <p> 🔎 <strong>April - September:</strong> Collaboration with students, researchers, and conference organizers.</p>
       <p> 🏆 <strong>October:</strong> Award ceremony for the best research papers and projects.</p>
-      <p> 🔥 <strong>November:</strong>Building a strong and collaborative DeSci community!</p>
+      <p> 🔥 <strong>November:</strong> Building a strong and collaborative DeSci community!</p>
     </div>
   )
 };
