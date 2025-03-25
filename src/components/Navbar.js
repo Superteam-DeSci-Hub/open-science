@@ -7,7 +7,9 @@ import Home from "../pages/Home";
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <img src={images.logo} alt="Project Logo" className="navbar-logo" />
+            <Link to="/">
+                <img src={images.logo} alt="Project Logo" className="navbar-logo" />
+            </Link>
             <h1 className="navbar-title">Superteam DeSci Challenge 2025</h1>
             <div className="navbar-menu">
                 <Link to="/home" element={<Home />}>Home</Link>
