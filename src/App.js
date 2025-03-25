@@ -15,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/open-science" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/contact" element={<Contact />} />

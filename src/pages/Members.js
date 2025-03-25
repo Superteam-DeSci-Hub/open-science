@@ -19,7 +19,7 @@ const Members = () => {
             <h2>{member.name}</h2>
             <p>{member.role}</p>
             <a href={member.github} target="_blank" rel="noopener noreferrer">
-              GitHub Profile
+              Profile
             </a>
           </div>
         ))}
