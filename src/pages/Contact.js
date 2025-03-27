@@ -23,10 +23,12 @@ const Contact = () => {
   return (
     <div className="contact-container">
       {submitted ? (
-        <p className="success-message">✅ Thank you! Your response has been recorded.</p>
+        <p className="success-message">Thank you! Your response has been recorded.</p>
       ) : (
         <form onSubmit={handleSubmit}>
-          <h1>Contact us:</h1>
+          <p>
+          Contact Us
+          </p>
           <input type="text" name="entry.2074818001" placeholder="Full Name:" required />
           <input type="email" name="entry.1021605082" placeholder="Email Address:" required />
           <input type="text" name="entry.873823422" placeholder="Institution/Organization:" required />

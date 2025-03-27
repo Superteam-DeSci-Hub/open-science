@@ -1,0 +1,165 @@
+.calendar-container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+    height: 100vh;           /* Full viewport height */
+    flex-direction: column;  /* Align content vertically */
+    padding: 20px;           /* Optional padding around the container */
+    color: #000000;
+    text-align: center;  /* Center text */
+    margin-top: 7%;  /* Reduced top margin to bring title higher */
+  }
+
+.upcoming-events-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;  /* Keep the reduced margin between title and calendar */
+    color: #333;
+    text-align: center;
+  }
+
+/* Make the calendar container larger */
+.react-calendar {
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    max-width: 1200px;
+    font-size: 18px; /* Larger font size for the calendar */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    padding: 3%;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    color: #000000;
+  }
+
+  /* Style the month and year header */
+.react-calendar__navigation__label {
+    font-family: 'Montserrat', sans-serif;
+    color: #36255c;  /* Set a color for the month and year */
+    font-weight: bold;  /* Make the label bold */
+    font-size: 24px;
+    background-color: #dfd3ef;
+  }
+
+  .react-calendar__navigation__label:hover {
+    background-color: #dfd3ef;
+  }
+  
+  /* Make the calendar tiles larger */
+  .react-calendar__tile {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    color: #000;
+  }
+
+  .react-calendar__tile--now {
+    background-color: #36255c;  /* Green background for the current date */
+    color: white;  /* White text color */
+    border-radius: 5px;  /* Rounded corners */
+    font-weight: bold;  /* Make the current date text bold */
+  }
+  
+  /* Hover effect for the current date card */
+  .react-calendar__tile--now:hover {
+    background-color: #dfd3ef;  /* Darker green on hover */
+  }
+  
+  /* Style for event card */
+  .event-card {
+    background-color: #dfd3ef;
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid #36255c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    opacity: 0.8;
+    color: #36255c;
+  }
+  
+  /* Empty card when there's no event */
+  .empty-card {
+    background-color: transparent;
+    display: none;
+  }
+  
+  /* Style for event description */
+  .event-description {
+    font-weight: bold;
+    color: #36255c;
+    font-size: 12px;
+  }
+  
+  /* Style for event link */
+  .event-link {
+    font-weight: bold;
+    font-size: 12px;
+    color: #36255c;
+    text-decoration: none;
+    margin-top: 10%;
+  }
+  
+  .event-link:hover {
+    text-decoration: underline;
+  }
+
+  .react-calendar__navigation {
+    display: none !important;  /* Hide default calendar buttons */
+  }
+  
+  .month-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .nav-button {
+    background-color: #36255c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: background 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #dfd3ef;
+  }
+  
+  .month-navigation span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Optional: Make calendar more responsive */
+  @media (max-width: 768px) {
+    .react-calendar__tile {
+      width: 40px;
+      height: 40px;
+      font-size: 14px;
+    }
+  }  
