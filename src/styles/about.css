@@ -1,0 +1,34 @@
+.about {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  font-family: 'Montserrat', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 18%;
+  margin-bottom: 3%;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #f9f9f9;
+  color: #000;
+  text-align: left;
+  gap: 10px;
+  padding-top: 10px; /* Adds space from the top */
+  padding-bottom: 15px; 
+}
+
+.about-container p {
+  font-size: 21px;
+  margin-bottom: 5px; /* Reduced spacing between paragraphs */
+}

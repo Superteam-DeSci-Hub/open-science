@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
                 <Link to="/calendar">Calendar</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/members">Members</Link>
+                <Link to="/members">Our Community</Link>
             </div>
         </nav>
     );
