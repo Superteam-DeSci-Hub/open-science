@@ -15,7 +15,8 @@ const CustomCalendar = () => {
 
   // Render event content inside calendar tiles
   const tileContent = ({ date }) => {
-    const formattedDate = date.toISOString().split('T')[0];
+    const formattedDate = new Date(date.getTime() - date.getTimezoneOffset() * 60000).toISOString().split('T')[0];
+
     const event = eventsData.find(d => d.date === formattedDate);
 
     return event ? (
@@ -43,11 +44,7 @@ const CustomCalendar = () => {
         onChange={setValue}
         value={value}
         tileContent={tileContent}
-        prevLabel={null}
-        nextLabel={null}
-        prev2Label={null}
-        next2Label={null}
-        showNavigation={false}
+        onActiveStartDateChange={({ activeStartDate }) => setValue(activeStartDate)}
       />
     </div>
   );
