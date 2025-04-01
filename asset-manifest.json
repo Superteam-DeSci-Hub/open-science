@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/open-science/static/css/main.618fb3b5.chunk.css",
-    "main.js": "/open-science/static/js/main.ab1661b4.chunk.js",
-    "main.js.map": "/open-science/static/js/main.ab1661b4.chunk.js.map",
+    "main.css": "/open-science/static/css/main.f9228f89.chunk.css",
+    "main.js": "/open-science/static/js/main.84807cd3.chunk.js",
+    "main.js.map": "/open-science/static/js/main.84807cd3.chunk.js.map",
     "runtime~main.js": "/open-science/static/js/runtime~main.145586cb.js",
     "runtime~main.js.map": "/open-science/static/js/runtime~main.145586cb.js.map",
     "static/css/2.05cbb0d5.chunk.css": "/open-science/static/css/2.05cbb0d5.chunk.css",
     "static/js/2.49a9915c.chunk.js": "/open-science/static/js/2.49a9915c.chunk.js",
     "static/js/2.49a9915c.chunk.js.map": "/open-science/static/js/2.49a9915c.chunk.js.map",
     "index.html": "/open-science/index.html",
-    "precache-manifest.881c4398c91d1d32e8c9d8b95a3d5519.js": "/open-science/precache-manifest.881c4398c91d1d32e8c9d8b95a3d5519.js",
+    "precache-manifest.09989915f3edec5059fbde84794511e1.js": "/open-science/precache-manifest.09989915f3edec5059fbde84794511e1.js",
     "service-worker.js": "/open-science/service-worker.js",
     "static/css/2.05cbb0d5.chunk.css.map": "/open-science/static/css/2.05cbb0d5.chunk.css.map",
-    "static/css/main.618fb3b5.chunk.css.map": "/open-science/static/css/main.618fb3b5.chunk.css.map",
+    "static/css/main.f9228f89.chunk.css.map": "/open-science/static/css/main.f9228f89.chunk.css.map",
     "static/media/logo.png": "/open-science/static/media/logo.dcd90f63.png",
     "static/media/news2.jpg": "/open-science/static/media/news2.683a6197.jpg",
     "static/media/stgrant.png": "/open-science/static/media/stgrant.c98ea79b.png"
