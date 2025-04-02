@@ -8,6 +8,10 @@
     padding: 20px;
   }
 
+.contact-container p {
+    font-size: 21px;
+  }
+
 form {
     display: flex;
     flex-direction: column;
@@ -52,3 +56,19 @@ button:hover {
       width: 100%; /* Ensures form fields adjust to screen width */
   }
 }
+
+.discord-button {
+    display: inline-block;
+    background-color: #5865F2; /* Discord blue */
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .discord-button:hover {
+    background-color: #404EED; /* Darker shade */
+  }
