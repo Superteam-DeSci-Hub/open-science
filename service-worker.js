@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/open-science/precache-manifest.09989915f3edec5059fbde84794511e1.js"
+  "/open-science/precache-manifest.f297fe58b6628861bb4e6c5b7b32d48f.js"
 );
 
 self.addEventListener('message', (event) => {

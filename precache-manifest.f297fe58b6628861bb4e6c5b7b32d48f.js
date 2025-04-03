@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0801829641a112b05f1fd70ed53f6d86",
+    "revision": "44078819c7aab1f01b85a3226e115d70",
     "url": "/open-science/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/open-science/static/css/2.05cbb0d5.chunk.css"
   },
   {
-    "revision": "eba3397c413195496236",
-    "url": "/open-science/static/css/main.f9228f89.chunk.css"
+    "revision": "ec54050a14e3fa644b4f",
+    "url": "/open-science/static/css/main.52c7d8c0.chunk.css"
   },
   {
     "revision": "723a1a6718ea96bbc66c",
     "url": "/open-science/static/js/2.49a9915c.chunk.js"
   },
   {
-    "revision": "eba3397c413195496236",
-    "url": "/open-science/static/js/main.84807cd3.chunk.js"
+    "revision": "ec54050a14e3fa644b4f",
+    "url": "/open-science/static/js/main.6a011afb.chunk.js"
   },
   {
     "revision": "c74dd901397d82536153",
